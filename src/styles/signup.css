@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form-content-right{
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44);
+height: 100vh; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+ 
+ 
+ 
+   
+
+
+
+}
+
+form h1{
+    position: relative;
+    margin: auto;
+    bottom: 80px;
+    left: 50px;
+    color: white;
+}
+.container{
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.form-input .password_2{
+    position: relative;
+    right: 150px;
+  
+   margin-top: 10px;
+   cursor: pointer;
+  
+}
+.email{
+    position: relative;
+    left: 38px;
+    margin-top: 10px;
+    cursor: pointer;
+   
+}
+.password{
+    position: relative;
+    left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+
+   
+}
+ .password2{
+    position: relative;
+    right: 110px;
+    bottom: 35px;
+   
+    margin-top: 10px;
+}
+.username{
+    position: relative;
+    left: 7px;
+   margin-top: 10px;
+cursor: pointer;
+}
+.form-label{
+    position: relative;
+    right: 20px;
+    color:#fff;
+}
+.form-label-confirm{
+    position: relative;
+    bottom: 150px;
+    top: 25px;
+    right: 80px;
+    color: #fff;
+    width: 200px;
+}
+.form-input-login{
+    color: #fff;
+}
+.form-input-btn{
+ background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+border-radius: 4px;
+margin-right: 7px;
+color: #fff;
+}
+.form-input-btn:hover{
+    color: #9518fc;
+  transition: all 0.3s ease;
+}
+
