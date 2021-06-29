@@ -366,6 +366,7 @@ const getState =({getstore, getActions, setStore})=>{
                                         id:70,
                                         title:"something",
                                         image:"http://placehold.jp/150x150.png"
+                                        
                                     },
                                        
                                     ]

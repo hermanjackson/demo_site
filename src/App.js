@@ -6,6 +6,7 @@ import {About} from "./about";
 import {SignIn} from "./signin";
 import {SignUp} from "./signup";
 import {NavBar} from "./nav";
+import { UserProfile } from './user_profile';
 import injectContext from './appContext';
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route exact path="/signup">
           <SignUp/>
+        </Route>
+        <Route exact path="/user_profile">
+          <UserProfile/>
         </Route>
       </Switch>
     </BrowserRouter>

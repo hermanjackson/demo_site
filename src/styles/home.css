@@ -7,9 +7,10 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+background: lightgray;
 }
 .card__container{
-    flex-direction: row;
+   /* flex-direction: row;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,4 +25,112 @@
     margin-left: 5px;
   
 
+}
+
+.hero_outer {
+     
+         padding: 200px 0;
+         height: 200px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+
+        
+         background-repeat: no-repeat;
+         background-size: 1400px 400px;
+         
+         
+       }
+       .hero{
+        height: 600px;
+        width: 100%;
+        background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+       
+         
+        }
+        .hero__container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          max-width: 1200px;
+          margin: 0 auto;
+          height: 200px;
+          text-align: center;
+          padding: 30px;
+         
+        
+        }
+        .hero__heading {
+          font: 100px;
+          margin-bottom: 24px;
+          color: #fff;
+        }
+    .hero__heading span {
+           background: #00B4DB;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #0083B0, #00B4DB, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+          background-size: 100%;
+          -webkit-background-clip: text;
+          -moz-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -moz-text-fill-color: transparent;
+        }
+    .hero__description {
+          font-size: 60px;
+     
+            background: blue;
+          -webkit-background-clip: text;
+          -moz-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -moz-text-fill-color: transparent;
+        }
+        .highlight {
+          border-bottom: 4px solid rgb(132, 0, 255);
+        }
+        .style_button{
+            height: 70px;
+        }
+        .services_first{
+            color:#fff;
+        }
+        .services{
+            height: 400px;
+        } 
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          margin-bottom: 4px;
+          flex-wrap: wrap;
+
+          
+            height: 350px;
+            width: 220px;
+        } 
+        .card_body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+           
+        } 
+        .card_head{
+            margin-top: 4px;
+            margin-right: 4px;
+        }   
+.product_container{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+    height: 300px;
+    background: #fff;
+    margin-bottom: 9px;
+  
 }
