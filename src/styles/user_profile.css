@@ -71,3 +71,8 @@ body{
     right: 300px;
    
 }
+Modal{
+    background: blue;
+    height: 200px;
+    width: 200px;
+}

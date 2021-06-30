@@ -20,16 +20,16 @@ import "./styles/home.css"
                 <div className="card_body">
                
                <div className="card_head">
-                 <img className="card_img" src="http://placehold.jp/100x100.png"/>
+                 <img className="card_img" alt="" src="http://placehold.jp/100x100.png"/>
                </div>
                <div className="card_head">
-                 <img className="card_img" src="http://placehold.jp/100x100.png"/>
+                 <img className="card_img" alt="" src="http://placehold.jp/100x100.png"/>
                </div>
                <div className="card_head">
-                 <img className="card_img" src="http://placehold.jp/100x100.png"/>
+                 <img className="card_img" alt="" src="http://placehold.jp/100x100.png"/>
                </div>
                <div className="card_head">
-                 <img className="card_img" src="http://placehold.jp/100x100.png"/>
+                 <img className="card_img" alt="" src="http://placehold.jp/100x100.png"/>
                </div>
              </div>
              
@@ -48,7 +48,7 @@ import "./styles/home.css"
           <div className="container_head"key={index}>
           <div className="card_main">
             <h5 className="header_words">{item.title}</h5>
-            <img className ="image"src={item.image}/>
+            <img className="image"  alt="" src={item.image}/>
           
             
           </div>
@@ -69,7 +69,7 @@ import "./styles/home.css"
           <div className="container_head"key={index}>
           <div className="card_main">
             <h5 className="header_words">{item.title}</h5>
-            <img className ="image"src={item.image}/>
+            <img alt="" className ="image"src={item.image}/>
           
               
           </div>
@@ -89,7 +89,7 @@ import "./styles/home.css"
         <div className="container_head"key={index}>
         <div className="card_main">
           <h5 className="header_words">{item.title}</h5>
-          <img className ="image"src={item.image}/>
+          <img alt="" className ="image"src={item.image}/>
         
          
         </div>
@@ -110,7 +110,7 @@ import "./styles/home.css"
         <div className="container_head"key={index}>
         <div className="card_main">
           <h5 className="header_words">{item.title}</h5>
-          <img className ="image"src={item.image}/>
+          <img alt="" className ="image"src={item.image}/>
         
            
         </div>
@@ -131,7 +131,7 @@ import "./styles/home.css"
         <div className="container_head"key={index}>
         <div className="card_main">
           <h5 className="header_words">{item.title}</h5>
-          <img className ="image"src={item.image}/>
+          <img alt="" className ="image"src={item.image}/>
         
            
         </div>
@@ -152,7 +152,7 @@ import "./styles/home.css"
         <div className="container_head"key={index}>
         <div className="card_main">
           <h5 className="header_words">{item.title}</h5>
-          <img className ="image"src={item.image}/>
+          <img alt="" className ="image"src={item.image}/>
         
            
         </div>
@@ -174,7 +174,7 @@ import "./styles/home.css"
         <div className="container_head"key={index}>
         <div className="card_main">
           <h5 className="header_words">{item.title}</h5>
-          <img className ="image"src={item.image}/>
+          <img alt="" className ="image"src={item.image}/>
         
            
         </div>
@@ -195,7 +195,7 @@ import "./styles/home.css"
         <div className="container_head"key={index}>
         <div className="card_main">
           <h5 className="header_words">{item.title}</h5>
-          <img className ="image"src={item.image}/>
+          <img alt="" className ="image"src={item.image}/>
         
           
         </div>

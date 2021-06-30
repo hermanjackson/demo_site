@@ -1,9 +1,15 @@
-import React, { useState, useEffect, useContext, useRef } from "react";
-import { Link, Value } from "react-router-dom";
+
+import React, { useState, useEffect,  useRef } from "react";
+import Popup from "./popup";
 import "./styles/user_profile.css"
+
+
+
 export const UserProfile = () =>{
     const [imageUrl, setImageUrl] = useState("http://placehold.jp/350x350.png");
     const [photo, setPhoto] = useState("");
+    const [buttonPopup, setButtonPopup] = useState(false);
+   
     const fileInput = useRef(null);
     useEffect(
 		() => {
@@ -26,7 +32,7 @@ export const UserProfile = () =>{
               
               <i onClick={() => fileInput.current.click()} className="fas fa-camera" />
                 
-                  <img className="user_image" src={imageUrl} />
+                  <img className="user_image" alt="" src={imageUrl} />
                   <input 
                     	ref={fileInput}
 						onChange={e => setPhoto(e.target.files[0])}
@@ -36,9 +42,22 @@ export const UserProfile = () =>{
                   </input>
                   <h3 className="user_profile_name">user name</h3>
                 
+              <button onClick={()=>setButtonPopup(true)} type="button" className="user_btn">something to say</button>
               <button type="button" className="user_btn"> something to say</button>
               <button type="button" className="user_btn"> something to say</button>
-              <button type="button" className="user_btn"> something to say</button>
+              <Popup trigger={buttonPopup} setTrigger={setButtonPopup} >
+                  <h1>yoooo</h1>
+              </Popup>
+              
+              
+                
+             <div>
+           
+
+                 
+             </div>
+             
+              
               
                      
                   
