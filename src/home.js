@@ -35,6 +35,7 @@ import "./styles/home.css"
              
               </div>
               </div>
+            
           
               
               
@@ -59,6 +60,7 @@ import "./styles/home.css"
          )
        })}
          </div>
+
          </div>
          <div className="product_container">
          <div className="card__container">
