@@ -1,0 +1,38 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.slider_container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.image{
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+}
+.slider_btn{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color:black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.slider_left_btn{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color:black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
