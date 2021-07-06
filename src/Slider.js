@@ -1,4 +1,4 @@
-import React, {useContext , useState} from "react";
+import React, {useContext , useState, useEffect, useRef} from "react";
 import { Context } from "./appContext";
 import "./styles/slider.css"
 
@@ -7,9 +7,22 @@ function Slider(slides){
   
     const lenght = slides.lenght
     const {store, actions}= useContext(Context);
+    const timeout = useRef(null);
     const nextSlide = ()=>{
         setCurrent(current === lenght - 1 ? 0 : current + 1)
     };
+    useEffect(()=>{
+        const nextSlide =()=>{
+            setCurrent(current=> (current === lenght - 1 ? 0 : current + 1))
+
+        }
+        timeout.current = setTimeout(nextSlide, 3000);
+        return function (){
+            if(timeout.current) {
+                clearTimeout(timeout.current)
+            }
+        }
+    },[current, lenght])
     const prevSlide = ()=>{
         setCurrent(current === 0  ? lenght  - 1 : current - 1)
     }
@@ -25,7 +38,9 @@ function Slider(slides){
                 return(
                     <div className={index === current ? "slide active" : "slide" } key={index}>
                         {index === current && (
-                             <img className="image"  alt="" src={item.image}/>
+                            <a className="link" href={item.link}>
+                             <img className="images"  alt="" src={item.image}/>
+                             </a>
 
                         )}
         

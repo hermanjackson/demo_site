@@ -255,272 +255,57 @@ const getState =({getstore, getActions, setStore})=>{
 
                                 
                                 ],
-                                product4:[
-                                    {
-                                        id:41,
-                                        title:"something",
-                                        image:"http://placehold.jp/150x150.png"
-                                    },
-                                    {
-                                        id:42,
-                                        title:"something",
-                                        image:"http://placehold.jp/150x150.png"
-                                    },
-                                    {
-                                        id:43,
-                                        title:"something",
-                                        image:"http://placehold.jp/150x150.png"
-                                    },
-                                    {
-                                        id:44,
-                                        title:"something",
-                                        image:"http://placehold.jp/150x150.png"
-                                    },
-                                    {
-                                        id:45,
-                                        title:"something",
-                                        image:"http://placehold.jp/150x150.png"
-                                    },
-                                    {
-                                        id:46,
-                                        title:"something",
-                                        image:"http://placehold.jp/150x150.png"
-                                    },
-                                    {
-                                        id:47,
-                                        title:"something",
-                                        image:"http://placehold.jp/150x150.png"
-                                    },
-                                    {
-                                        id:48,
-                                        title:"something",
-                                        image:"http://placehold.jp/150x150.png"
-                                    },
-                                    {
-                                        
-                                        id:49,
-                                        title:"something",
-                                        image:"http://placehold.jp/150x150.png"
-                                    },
-                                    {
-                                        id:50,
-                                        title:"something",
-                                        image:"http://placehold.jp/150x150.png"
-                                    },
-                                    
-                                    ],
-                                    product5:[
-                                        {
-                                            id:51,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:52,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:53,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:54,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:55,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:56,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:57,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:58,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:59,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:60,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        
-                                        ],
-                                        product6:[
-                                            {
-                                                id:61,
-                                                title:"something",
-                                                image:"http://placehold.jp/150x150.png"
-                                            },
-                                            {
-                                                id:62,
-                                                title:"something",
-                                                image:"http://placehold.jp/150x150.png"
-                                            },
-                                            {
-                                                id:63,
-                                                title:"something",
-                                                image:"http://placehold.jp/150x150.png"
-                                            },
-                                            {
-                                                id:64,
-                                                title:"something",
-                                                image:"http://placehold.jp/150x150.png"
-                                            },
-                                            {
-                                                id:65,
-                                                title:"something",
-                                                image:"http://placehold.jp/150x150.png"
-                                            },
-                                            {
-                                                id:66,
-                                                title:"something",
-                                                image:"http://placehold.jp/150x150.png"
-                                            },
-                                            {
-                                                id:67,
-                                                title:"something",
-                                                image:"http://placehold.jp/150x150.png"
-                                            },
-                                            {
-                                                id:68,
-                                                title:"something",
-                                                image:"http://placehold.jp/150x150.png"
-                                            },
-                                            {
-                                                id:69,
-                                                title:"something",
-                                                image:"http://placehold.jp/150x150.png"
-                                            },
-                                            {
-                                                id:70,
-                                                title:"something",
-                                                image:"http://placehold.jp/150x150.png"
-                                                
-                                            },
-                                       
-                                    ],
-                                    product7:[
-                                        {
-                                            id:71,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:72,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:73,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:74,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:75,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:76,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:77,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:78,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:79,
-                                            title:"something",
-                                            image:"",
-                                            link:""
-                                        },
-                                        {
-                                            id:80,
-                                            title:"something",
-                                            image:"https://diabetesfreedom.org/vanilla-images/dig-add-prod.png",
-                                            link:"https://1ee6f9s5fh1nx4m0he26pvcp7y.hop.clickbank.net/"
-                                            
-                                        },
-                                   
-                                ],
+                             
+                                 
                                 Health:[
                                         {
-                                            id:81,
+                                            id:41,
                                             title:"something",
                                             image:"https://www.lostbookofremedies.com/affiliates/img/new_bor.jpg",
                                             link:""
                                         },
                                         {
-                                            id:82,
+                                            id:42,
                                             title:"something",
                                             image:""
                                         },
                                         {
-                                            id:83,
+                                            id:43,
                                             title:"something",
                                             image:"http://placehold.jp/150x150.png"
                                         },
                                         {
-                                            id:84,
+                                            id:44,
                                             title:"something",
                                             image:"http://placehold.jp/150x150.png"
                                         },
                                         {
-                                            id:85,
+                                            id:45,
                                             title:"something",
                                             image:"http://placehold.jp/150x150.png"
                                         },
                                         {
-                                            id:86,
+                                            id:46,
                                             title:"something",
                                             image:"http://placehold.jp/150x150.png"
                                         },
                                         {
-                                            id:87,
+                                            id:47,
                                             title:"something",
                                             image:"http://placehold.jp/150x150.png"
                                         },
                                         {
-                                            id:88,
+                                            id:48,
                                             title:"something",
                                             image:"http://placehold.jp/150x150.png"
                                         },
                                         {
-                                            id:89,
+                                            id:49,
                                             title:"something",
                                             image:"http://placehold.jp/150x150.png"
                                         },
                                         {
-                                            id:90,
+                                            id:50,
                                             title:"something",
                                             image:"http://placehold.jp/150x150.png"
                                             
@@ -529,7 +314,7 @@ const getState =({getstore, getActions, setStore})=>{
              ],
              banners:[
                  {
-                     id:"91",
+                     id:"51",
                      title:"",
                      image:"https://patriotpoweredspecials.com/hosted/images/8d/07019a04cf4846be1634ae36060064/Trump-2024-Navy-Flag.png",
                      link:"https://bb5b69zyfd3ctsamol2sormz5l.hop.clickbank.net/"
@@ -538,71 +323,66 @@ const getState =({getstore, getActions, setStore})=>{
                     
                 },
                 {
-                    id:"92",
+                    id:"52",
                     title:"something",
                     image:"https://www.gojctraining.com/hosted/images/1e/68fff096a811e8920f033160fcc497/profit-gen.png",
                     link:"https://555c2gt4sj4ityldcei18z0o0w.hop.clickbank.net/"
                 },
                 {
-                   id:"93",
+                   id:"53",
                    title:"",
                    image:"https://www.powerquadrantsystem.com/hosted/images/01/083dd047dd11e5b194cda4aafc4fc6/power_quadrant_001.png",
                    link:"https://248e77u5nj0e02me0f8l2xbma8.hop.clickbank.net/"
                },
                {
-                id:"94",
+                id:"54",
                 title:"",
                 image:"https://www.photojobz.com/hosted/images/26/31543e6d3846d9b35eaa0f4ea925a4/banner.ad.250x250.2.png",
                 link:"https://027617r4r50czrg1bij-gfyvdu.hop.clickbank.net/"
             },
             {
-               id:"95",
+               id:"55",
                title:"sports betting system",
                image:"https://zcodesystem.com/affiliates2019/images/daily_fantasy_sports.jpg",
                link:"https://ff71c9z4oi7kvxbnikqz5i3x7q.hop.clickbank.net/"
            },
            {
-               id:"96",
+               id:"56",
                title:"when his heart",
                image:"https://womanmenadore.net/images/topnavback.gif",
                link:"https://386fc6t6gfulxwgfo9h2gtau74.hop.clickbank.net/"
            },
            {
-              id:"97",
+              id:"57",
               title:"",
               image:"https://convertri.imgix.net/a5160590-47d8-11ea-99fe-0697e5ca793e/6960678e41396cb444793ca944bbbd16c1840388/bedroomrockstar2020.png?auto=compress,format&fit=scale&w=632&h=382",
               link:"https://b6c6a1l8rhvjy-9zl-myk06fea.hop.clickbank.net/"
           },
           {
-            id:"98",
+            id:"58",
             title:"",
             image:"https://images.clickfunnels.com/22/e50355dd454ac08f1b4eb77788a6d8/CPS_CHAD_MOCKUP_MANGREENS_F-2.png",
             link:"https://8c8642ovgb1eqt7ddcijg7xh2w.hop.clickbank.net/"
         },
         {
-           id:"99",
+           id:"59",
            title:"",
            image:"https://www.cosmicenergybracelet.com/hosted/images/fb/bc9790c82711e78abfd37e76647e5c/bundle-bracelet22.png",
            link:"https://1215f8nvh51eo0c60662dw26hk.hop.clickbank.net/"
        },
        {
-           id:"100",
+           id:"60",
            title:"",
            image:"https://bodyweightburn.com/system/img/bundle_main.jpg",
            link:"https://38639csxsfya-sj053whuw1kac.hop.clickbank.net/"
        },
        {
-          id:"101",
+          id:"61",
           title:"turn 2 bets into a house",
           image:"http://steadysteveo.com/images/header.png",
           link:"https://b9323ez8fhydxsh9p91nhok61j.hop.clickbank.net/"
       },
-      {
-        id:"102",
-        title:"turn 2 bets into a house",
-        image:"",
-        link:""
-    },
+    
              ]
     
 
