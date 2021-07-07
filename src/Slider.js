@@ -38,7 +38,7 @@ function Slider(slides){
                 return(
                     <div className={index === current ? "slide active" : "slide" } key={index}>
                         {index === current && (
-                            <a className="link" href={item.link}>
+                            <a className="image_link" href={item.link}>
                              <img className="images"  alt="" src={item.image}/>
                              </a>
 
