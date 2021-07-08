@@ -45,7 +45,7 @@ export const UserProfile = () =>{
               <button onClick={()=>setButtonPopup(true)} type="button" className="user_btn">something to say</button>
               <button type="button" className="user_btn"> something to say</button>
               <button type="button" className="user_btn"> something to say</button>
-              <Popup trigger={buttonPopup} setTrigger={setButtonPopup} >
+              <Popup  trigger={buttonPopup} setTrigger={setButtonPopup} >
                   <h1>yoooo</h1>
               </Popup>
               

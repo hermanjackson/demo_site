@@ -60,7 +60,7 @@ import "./styles/home.css"
           <div className="card_main">
             <h5 className="header_words">{item.title}</h5>
             <a href={item.link}>
-            <img alt="" className="image alex" src={item.image} />
+            <img alt="" className="image_alex" src={item.image} />
             </a>
               
           </div>

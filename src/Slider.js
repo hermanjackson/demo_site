@@ -1,4 +1,5 @@
 import React, {useContext , useState, useEffect, useRef} from "react";
+
 import { Context } from "./appContext";
 import "./styles/slider.css"
 

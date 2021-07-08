@@ -24,11 +24,12 @@ background: lightgray;
     justify-content: space-between;
     align-items: center;
     margin-left: 5px;
+    height: 200px;
    
 
 }
 
-       .hero{
+ .hero{
         height: 400px;
         width: 100%;
     /*    background: #2980B9;  /* fallback for old browsers */
@@ -123,5 +124,17 @@ background: lightgray;
     overflow-y: hidden;
     direction: rtl;  
   
+}
+.image_head{
+  height: 200px;
+}
+.image_alex{
+  height: 200px;
+}
+.image_product_1{
+  height: 200px;
+}
+.image{
+  height: 200px;
 }
 
