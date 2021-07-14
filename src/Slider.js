@@ -1,5 +1,6 @@
 import React, {useContext , useState, useEffect, useRef} from "react";
-
+import {FaAngleDoubleRight} from 'react-icons/fa';
+import{FaAngleDoubleLeft} from 'react-icons/fa';
 import { Context } from "./appContext";
 import "./styles/slider.css"
 
@@ -32,9 +33,10 @@ function Slider(slides){
     }
     return (
         <div className="slider">
-            <button type="button" className="slider_left_btn" onClick={prevSlide} >hey it me</button>
-            <button type="button" className="slider_btn" onClick={nextSlide} >hey it me right</button>
            
+            <FaAngleDoubleLeft type="button" className="slider_left_btn" onClick={prevSlide}/ >
+            < FaAngleDoubleRight  type="button" className="slider_btn" onClick={nextSlide}/>
+        
             {store.banners.map((item, index)=>{
                 return(
                     <div className={index === current ? "slide active" : "slide" } key={index}>

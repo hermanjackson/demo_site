@@ -46,7 +46,14 @@ export const UserProfile = () =>{
               <button type="button" className="user_btn"> something to say</button>
               <button type="button" className="user_btn"> something to say</button>
               <Popup  trigger={buttonPopup} setTrigger={setButtonPopup} >
-                  <h1>yoooo</h1>
+                  
+               
+                  <label for="text_area">something to say</label>
+
+                        <textarea id="w3review" name="w3review" rows="4" cols="50">
+                            
+                        </textarea>
+
               </Popup>
               
               
