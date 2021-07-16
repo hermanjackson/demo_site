@@ -8,7 +8,7 @@ export const SignUp = ()=>{
     return(
 		<div className="form_wrapper">
         <div className="form-container">
-        <form className="sign-up-form" onSubmit={handleSubmit}>
+        <form className="sign-up-forms" onSubmit={handleSubmit}>
             <input
              name='username'
               type="text" 
@@ -46,7 +46,7 @@ export const SignUp = ()=>{
                  />
                     {errors.password2 && <p>{errors.password2}</p>}
             
-            <button type="reset" className="user_button" >log in</button>
+            <button type="reset" className="user_button" onClick= {handleSubmit} >log in</button>
               
         </form>
         <div className="header">

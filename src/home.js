@@ -34,10 +34,11 @@ import "./styles/home.css"
          return(
           <div className="container_head"key={index}>
           <div className="card_main">
-            <h5 className="header_words">{item.title}</h5>
+         
             <a href={item.link}>
             <img className="image_head"  alt="" src={item.image}/>
             </a>
+            <label className="header_words">{item.title}</label>
           
             
           </div>
@@ -58,7 +59,7 @@ import "./styles/home.css"
          return(
           <div className="container_head"key={index}>
           <div className="card_main">
-            <h5 className="header_words">{item.title}</h5>
+            <p className="header_words">{item.title}</p>
             <a href={item.link}>
             <img alt="" className="image_alex" src={item.image} />
             </a>
@@ -79,7 +80,7 @@ import "./styles/home.css"
        return(
         <div className="container_head"key={index}>
         <div className="card_main">
-          <h5 className="header_words">{item.title}</h5>
+          <p className="header_words">{item.title}</p>
           <a href={item.link}>
           <img alt="" className ="image_product_1"src={item.image}/>
           </a>
@@ -101,7 +102,7 @@ import "./styles/home.css"
        return(
         <div className="container_head"key={index}>
         <div className="card_main">
-          <h5 className="header_words">{item.title}</h5>
+          <p className="header_words">{item.title}</p>
           
           <a href={item.link}>
           <img alt="" className ="image"src={item.image}/>
