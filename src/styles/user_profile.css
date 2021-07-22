@@ -61,6 +61,8 @@ body{
     height: 35px;
     border-radius: 60px;
     background: blue;
+    width: 150px;
+    position: absolute;
     
     
     color: #fff;
@@ -68,9 +70,10 @@ body{
 }
 .user_profile_name{
     position: relative;
-    right: 300px;
-   
+    right: 550px;
+    width: 100px;
 }
+
 .Popup{
     display: flex;
     justify-content: center ;

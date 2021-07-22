@@ -1,7 +1,10 @@
 
-import React, { useState, useEffect,  useRef } from "react";
+import React, { useState, useEffect,  useRef, useContext } from "react";
 import Popup from "./popup";
+import {Value} from "react-router-dom"
 import "./styles/user_profile.css"
+import { FaCamera } from "react-icons/fa";
+import { Context } from "./appContext"
 
 
 
@@ -9,6 +12,14 @@ export const UserProfile = () =>{
     const [imageUrl, setImageUrl] = useState("http://placehold.jp/350x350.png");
     const [photo, setPhoto] = useState("");
     const [buttonPopup, setButtonPopup] = useState(false);
+    const [support, setSupport]= useState("")
+    const {store, actions} =  useContext(Context) 
+
+    const contactSuport = e =>{
+        setSupport(support)
+        console.log("hey its me")
+
+    }
    
     const fileInput = useRef(null);
     useEffect(
@@ -30,7 +41,7 @@ export const UserProfile = () =>{
         <div className="user_container">
           <div className="user_jumbo_container">
               
-              <i onClick={() => fileInput.current.click()} className="fas fa-camera" />
+              <FaCamera onClick={() => fileInput.current.click()} className="fas fa-camera" />
                 
                   <img className="user_image" alt="" src={imageUrl} />
                   <input 
@@ -42,17 +53,29 @@ export const UserProfile = () =>{
                   </input>
                   <h3 className="user_profile_name">user name</h3>
                 
-              <button onClick={()=>setButtonPopup(true)} type="button" className="user_btn">something to say</button>
-              <button type="button" className="user_btn"> something to say</button>
-              <button type="button" className="user_btn"> something to say</button>
+              <button onClick={()=>setButtonPopup(true)} type="button" className="user_btn">Contact Support</button>
+             
               <Popup  trigger={buttonPopup} setTrigger={setButtonPopup} >
                   
                
-                  <label for="text_area">something to say</label>
+                  <label for="text_area">to contact support enter complaint below</label>
 
-                        <textarea id="w3review" name="w3review" rows="4" cols="50">
+                        <textarea
+                         id="support"
+                          name="support"
+                           rows="4"
+                            cols="50"
+                            value={support}
+                            onChange={e=> setSupport(e.target.value)}
+                            >
                             
                         </textarea>
+                        <button
+                         type="submit"
+                         className="submit_button"
+                         onClick={contactSuport}
+                         >Submit</button>
+
 
               </Popup>
               

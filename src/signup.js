@@ -8,11 +8,11 @@ export const SignUp = ()=>{
     return(
 		<div className="form_wrapper">
         <div className="form-container">
-        <form className="sign-up-forms" onSubmit={handleSubmit}>
+        <form className="sign-up-form" onSubmit={handleSubmit}>
             <input
              name='username'
               type="text" 
-              className="form-input"
+              className="form-inpit"
                placeholder="FULL NAME"
                value={values.username}
                onChange={handleChange}
@@ -21,7 +21,7 @@ export const SignUp = ()=>{
              <input
               name="email"
                type="email"
-                className="form-input"
+                className="form-inpit"
                  placeholder="email address"
                  value={values.email}
                  onChange={handleChange}
@@ -30,7 +30,7 @@ export const SignUp = ()=>{
 			 <input
               name="password"
                type="password"
-                className="form-input"
+                className="form-inpit"
                  placeholder="password"
                  value={values.password}
                  onChange={handleChange}
@@ -39,7 +39,7 @@ export const SignUp = ()=>{
 			 <input
               name="password2"
                type="password"
-                className="form-input"
+                className="form-inpit"
                  placeholder="confirm password"
                  value={values.password2}
                  onChange={handleChange}
@@ -49,10 +49,7 @@ export const SignUp = ()=>{
             <button type="reset" className="user_button" onClick= {handleSubmit} >log in</button>
               
         </form>
-        <div className="header">
-            <h1>welcome to my page</h1>
-        </div>
-        <div className="x-btn">&#10005;</div>
+        
         </div>
 
 

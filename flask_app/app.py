@@ -6,6 +6,14 @@ from flask_migrate import Migrate
 
 from flask_cors import CORS
 
+from flask_admin import Admin
+
+from flask_admin.contrib.sqla import ModelView
+
+
+
+
+
 from src.models import db
 from src.routes import api
 
@@ -15,13 +23,16 @@ from src.routes import api
 
 
 app = Flask(__name__)
+
 # database condiguration
 
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:////tmp/test.db"
+app.config['SECRET_KEY'] = 'mysecret'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 MIGRATE = Migrate(app, db)
 db.init_app(app)
+admin = Admin(app)
 
 # Allow CORS requests to this API
 CORS(app)
@@ -29,8 +40,11 @@ CORS(app)
 # add the admin
 
 
+
 # Add all endpoints form the API with a "api" prefix
 app.register_blueprint(api, url_prefix='/api')
+
+
 
 
 
@@ -43,4 +57,4 @@ def index():
     return "hello"
 
 if __name__== '__main__':
-    app.run()
+    app.run(debug=True)

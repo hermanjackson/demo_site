@@ -1,4 +1,4 @@
-const getState =({getstore, getActions, setStore})=>{
+const getState =({getStore, getActions, setStore})=>{
     return {
         store:{
             product:[
@@ -91,63 +91,69 @@ const getState =({getstore, getActions, setStore})=>{
                         image:"https://organichealthremedies.co/affiliates/web/i/product-item-02.jpg",
                         link:"https://1e5e5akym6-czzd-yct02hzo39.hop.clickbank.net/",
                     },
+                   
                     {
                         id:15,
-                        title:"",
-                        image:"https://d2hxwhv2sc3sef.cloudfront.net/go/wp-content/uploads/2015/08/b1.jpg",
-                        link:"https://8c060gwwla28uwfkjbnfpx-ebm.hop.clickbank.net/"
-                    },
-                    {
-                        id:16,
                         title:" Revitaa Pro is a stress reliever supplement that facilitates stress relief through its all-natural components",
                         image:"https://revitaapro.com/assets/images/starter-pack.png",
                         link:"https://3cf402txg4zktrmeumrpj7rhqi.hop.clickbank.net/"
                     },
                     {
-                        id:17,
+                        id:16,
                         title:"",
                         image:"https://feminineenchantment.com/wp-content/uploads/2020/03/feminine-enchantment-smaller-200x300.jpg",
                         link:"https://65e15en8g6tnu4kij7k9ysdazf.hop.clickbank.net/"
                     },
+                   
                     {
-                        id:18,
-                        title:"",
-                        image:"https://www.braintraining4dogs.com/get-btfd/assets/btd-product-sm.png",
-                        link:"https://9b2f06l5p82ivthytwll-6yb22.hop.clickbank.net/"
-                    },
-                    {
-                        id:19,
+                        id:17,
                         title:"Quietum Plus improves your hearing & also decreases risk of age-related hearing problems.",
                         image:"https://quietumplus.com/img/1-bottle.png",
                         link:"https://f9fd49q7qc6br2li76lq-b7cao.hop.clickbank.net/"
                     },
                     {
+                        id:18,
+                        title:"The PX7 Primal Flow is a PX7 Male Enhancement dietary supplement formulated to ameliorate the prostate and amend prostate welfare",
+                        image:"https://getprimalflow.com/images/primal-flow/pp-flow-6.png",
+                        link:"https://87ba0brvd7t9wtbm6bz00eq85s.hop.clickbank.net/"
+                    },
+                    {  
+                        id:19,
+                        title:"",
+                        image:"https://muscleimbalancesrevealed.com/wp-content/uploads/2012/04/mirl3-coil-large-corrective-214x300.jpg",
+                        link:"https://1a80f3zzog79wsc9ol0867tn74.hop.clickbank.net/"
+                    },
+                     
+                    {
                         id:20,
                         title:"",
-                        image:"https://sqribble.com/cb/new/img/large-img/section-2-lagre-img.png",
-                        link:"https://ccad6at7f6zgz3hmvckwiamvan.hop.clickbank.net/",
+                        image:"https://deepsleepdiabetesremedy.com/txt-1/images/bonus-1.png",
+                        link:"https://cfdd42x2o4xmpwa04ypydtdydy.hop.clickbank.net/"
                     },
+                    {
+                        id:21,
+                        title:"",
+                        image:"https://over30hormonesolution.com/truth/images/o30hs1bottleDesk.jpg",
+                        link:"https://c36de6r6p5w8tsbb5-od5l1s1l.hop.clickbank.net/"
+                    },
+                  
+                   
                     
                 ],
          product2:[
                             {
-                                id:21,
+                                id:22,
                                 title:"Divine Locks a dietary Supplement that looks to help improve the body’s rate at which the body can deliver hair follicles.",
                                 image:"https://www.trydivinelocks.com/img/sale/onem-pkg.png",
                                 link:"https://7bdf06l4i6wg0zi8am-dsgxtar.hop.clickbank.net/"
                             },
                             {
-                                id:22,
+                                id:23,
                                 title:"Renew is the dietary weight loss supplement that focuses on the weight loss results by kicking out the dangerous toxins from the body",
                                 image:"https://berenewed.net/non-vsl/images/home_product1.png",
                                 link:"https://9a13f6x2fgyn-xmdjkitj70acb.hop.clickbank.net/"
                             },
-                            {
-                                id:23,
-                                title:"",
-                                image:"https://ssl.clickbank.net/order/c/painfix/img/hip-flexor-group100.png",
-                                link:"https://600008m1i5ynp2fnkbv2xu8u9n.hop.clickbank.net/"
-                            },
+                        
                             {
                                 id:24,
                                 title:"NitriLEAN is the only product in the world that contains the eight special nutrients",
@@ -191,130 +197,67 @@ const getState =({getstore, getActions, setStore})=>{
                                 image:"https://dentivive.com/statics/img/dv-1.png",
                                 link:"https://551c15v8ihu8twd6mj18a59aar.hop.clickbank.net/"
                             },
+                            {
+                                id:31,
+                                title:"",
+                                image:"https://callofdestiny.org/affiliates/images/Book_3d_s.png",
+                                link:"https://1de3b7sxid-ksrk2p-sm-4vs04.hop.clickbank.net/"
+                            },
+                            {
+                                id:32,
+                                title:" Alive is a dietary supplement that aids weight loss by producing a healthy amount of dopamine that regulates your cravings and urge to eat ",
+                                image:"https://tryalive.com/images/demo/img-01.png",
+                                link:"https://ce139do-hevm2sgdwxdbmiqy3t.hop.clickbank.net/"
+                            },
                             
                             ],
-                            product3:[
-                                {
-                                    id:31,
-                                    title:"",
-                                    image:"https://callofdestiny.org/affiliates/images/Book_3d_s.png",
-                                    link:"https://1de3b7sxid-ksrk2p-sm-4vs04.hop.clickbank.net/"
-                                },
-                                {
-                                    id:32,
-                                    title:" Alive is a dietary supplement that aids weight loss by producing a healthy amount of dopamine that regulates your cravings and urge to eat ",
-                                    image:"https://tryalive.com/images/demo/img-01.png",
-                                    link:"https://ce139do-hevm2sgdwxdbmiqy3t.hop.clickbank.net/"
-                                },
-                                {
-                                    id:33,
-                                    title:"The PX7 Primal Flow is a PX7 Male Enhancement dietary supplement formulated to ameliorate the prostate and amend prostate welfare",
-                                    image:"https://getprimalflow.com/images/primal-flow/pp-flow-6.png",
-                                    link:"https://87ba0brvd7t9wtbm6bz00eq85s.hop.clickbank.net/"
-                                },
-                                {
-                                    id:34,
-                                    title:"",
-                                    image:"https://over30hormonesolution.com/truth/images/o30hs1bottleDesk.jpg",
-                                    link:"https://c36de6r6p5w8tsbb5-od5l1s1l.hop.clickbank.net/"
-                                },
-                                {
-                                    id:35,
-                                    title:"",
-                                    image:"https://www.feelgoodknees.com/hosted/images/f6/8e19c0d3a211e78aa53fa33085996a/Screen-Shot-2017-11-27-at-1.43.42-PM.png",
-                                    link:"https://756c53o5q53bp0mo795hudnvae.hop.clickbank.net/"
-                                },
-                                {
-                                    id:36,
-                                    title:"",
-                                    image:"https://www.meetysweet.com/images/mini-course-pack.png",
-                                    link:"https://be2657t9d67nyslfq-8m3q6v0j.hop.clickbank.net/"
-                                },
-                                {
-                                    id:37,
-                                    title:"",
-                                    image:"https://deepsleepdiabetesremedy.com/txt-1/images/bonus-1.png",
-                                    link:"https://cfdd42x2o4xmpwa04ypydtdydy.hop.clickbank.net/"
-                                },
-                                {  
-                                    id:38,
-                                    title:"",
-                                    image:"https://muscleimbalancesrevealed.com/wp-content/uploads/2012/04/mirl3-coil-large-corrective-214x300.jpg",
-                                    link:"https://1a80f3zzog79wsc9ol0867tn74.hop.clickbank.net/"
-                                },
-                                {
-                                    id:39,
-                                    title:"something",
-                                    image:"http://placehold.jp/150x150.png"
-                                },
-                                {
-                                    id:40,
-                                    title:"something",
-                                    image:"http://placehold.jp/150x150.png"
-                                },
-
-                                
-                                ],
+                    
                              
                                  
-                                Health:[
-                                        {
-                                            id:41,
-                                            title:"something",
-                                            image:"https://www.lostbookofremedies.com/affiliates/img/new_bor.jpg",
-                                            link:""
-                                        },
-                                        {
-                                            id:42,
-                                            title:"something",
-                                            image:""
-                                        },
-                                        {
-                                            id:43,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:44,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:45,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:46,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:47,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:48,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:49,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                        },
-                                        {
-                                            id:50,
-                                            title:"something",
-                                            image:"http://placehold.jp/150x150.png"
-                                            
-                                        },
+                                hero:[
+                                    {
+                                        id:33,
+                                        title:"",
+                                        image:"https://d2hxwhv2sc3sef.cloudfront.net/go/wp-content/uploads/2015/08/b1.jpg",
+                                        link:"https://8c060gwwla28uwfkjbnfpx-ebm.hop.clickbank.net/"
+                                    },
+                                    {
+                                        id:34,
+                                        title:"",
+                                        image:"https://www.braintraining4dogs.com/get-btfd/assets/btd-product-sm.png",
+                                        link:"https://9b2f06l5p82ivthytwll-6yb22.hop.clickbank.net/"
+                                    },
+                                    {
+                                        id:35,
+                                        title:"",
+                                        image:"https://sqribble.com/cb/new/img/large-img/section-2-lagre-img.png",
+                                        link:"https://ccad6at7f6zgz3hmvckwiamvan.hop.clickbank.net/",
+                                    },
+                                    {
+                                        id:36,
+                                        title:"",
+                                        image:"https://ssl.clickbank.net/order/c/painfix/img/hip-flexor-group100.png",
+                                        link:"https://600008m1i5ynp2fnkbv2xu8u9n.hop.clickbank.net/"
+                                    },
+                                    {
+                                        id:37,
+                                        title:"",
+                                        image:"https://www.feelgoodknees.com/hosted/images/f6/8e19c0d3a211e78aa53fa33085996a/Screen-Shot-2017-11-27-at-1.43.42-PM.png",
+                                        link:"https://756c53o5q53bp0mo795hudnvae.hop.clickbank.net/"
+                                    },
+                                    {
+                                        id:38,
+                                        title:"",
+                                        image:"https://www.meetysweet.com/images/mini-course-pack.png",
+                                        link:"https://be2657t9d67nyslfq-8m3q6v0j.hop.clickbank.net/"
+                                    },
+                                       
+                                    
                                            
              ],
              banners:[
                  {
-                     id:"51",
+                     id:39,
                      title:"",
                      image:"https://patriotpoweredspecials.com/hosted/images/8d/07019a04cf4846be1634ae36060064/Trump-2024-Navy-Flag.png",
                      link:"https://bb5b69zyfd3ctsamol2sormz5l.hop.clickbank.net/"
@@ -323,61 +266,61 @@ const getState =({getstore, getActions, setStore})=>{
                     
                 },
                 {
-                    id:"52",
+                    id:40,
                     title:"something",
                     image:"https://www.gojctraining.com/hosted/images/1e/68fff096a811e8920f033160fcc497/profit-gen.png",
                     link:"https://555c2gt4sj4ityldcei18z0o0w.hop.clickbank.net/"
                 },
                 {
-                   id:"53",
+                   id:41,
                    title:"",
                    image:"https://www.powerquadrantsystem.com/hosted/images/01/083dd047dd11e5b194cda4aafc4fc6/power_quadrant_001.png",
                    link:"https://248e77u5nj0e02me0f8l2xbma8.hop.clickbank.net/"
                },
                {
-                id:"54",
+                id:42,
                 title:"",
                 image:"https://www.photojobz.com/hosted/images/26/31543e6d3846d9b35eaa0f4ea925a4/banner.ad.250x250.2.png",
                 link:"https://027617r4r50czrg1bij-gfyvdu.hop.clickbank.net/"
             },
             {
-               id:"55",
+               id:43,
                title:"sports betting system",
                image:"https://zcodesystem.com/affiliates2019/images/daily_fantasy_sports.jpg",
                link:"https://ff71c9z4oi7kvxbnikqz5i3x7q.hop.clickbank.net/"
            },
            {
-               id:"56",
+               id:44,
                title:"when his heart",
                image:"https://womanmenadore.net/images/topnavback.gif",
                link:"https://386fc6t6gfulxwgfo9h2gtau74.hop.clickbank.net/"
            },
            {
-              id:"57",
+              id:45,
               title:"",
               image:"https://convertri.imgix.net/a5160590-47d8-11ea-99fe-0697e5ca793e/6960678e41396cb444793ca944bbbd16c1840388/bedroomrockstar2020.png?auto=compress,format&fit=scale&w=632&h=382",
               link:"https://b6c6a1l8rhvjy-9zl-myk06fea.hop.clickbank.net/"
           },
           {
-            id:"58",
+            id:46,
             title:"",
             image:"https://images.clickfunnels.com/22/e50355dd454ac08f1b4eb77788a6d8/CPS_CHAD_MOCKUP_MANGREENS_F-2.png",
             link:"https://8c8642ovgb1eqt7ddcijg7xh2w.hop.clickbank.net/"
         },
         {
-           id:"59",
+           id:47,
            title:"",
            image:"https://www.cosmicenergybracelet.com/hosted/images/fb/bc9790c82711e78abfd37e76647e5c/bundle-bracelet22.png",
            link:"https://1215f8nvh51eo0c60662dw26hk.hop.clickbank.net/"
        },
        {
-           id:"60",
+           id:48,
            title:"",
            image:"https://bodyweightburn.com/system/img/bundle_main.jpg",
            link:"https://38639csxsfya-sj053whuw1kac.hop.clickbank.net/"
        },
        {
-          id:"61",
+          id:49,
           title:"turn 2 bets into a house",
           image:"http://steadysteveo.com/images/header.png",
           link:"https://b9323ez8fhydxsh9p91nhok61j.hop.clickbank.net/"
@@ -388,6 +331,7 @@ const getState =({getstore, getActions, setStore})=>{
 
         },
         actions:{
+           
 
            
            

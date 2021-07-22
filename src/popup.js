@@ -9,9 +9,11 @@ function Popup(props){
         <div className="popup">
     
             <div className="popup-inner" >
-                <button className="closer_btn" onClick={()=>props.setTrigger(false)}>close</button>
+              
+               
+                <div className="x_btn" onClick={()=>props.setTrigger(false)}>&#10005;</div>
                 {props.children}
-
+              
             </div>
         </div> 
         
